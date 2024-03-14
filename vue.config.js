@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  publicPath: process.env.NODE_ENV === 'production' ? '/maoyan/' : '/',
   transpileDependencies: true,
   lintOnSave : false,
   // 下面的配置演示了在 vue 中如何配置多页应用
