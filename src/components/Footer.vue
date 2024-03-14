@@ -2,7 +2,7 @@
   <footer>
     <ul class="between" @touchstart.stop>
       <li>
-        <a href="/" :class="[a, categoryNum == 1 ? b : '']">
+        <a href="/maoyan/index.html" :class="[a, categoryNum == 1 ? b : '']">
           <svg
             width="50"
             height="50"
@@ -31,7 +31,7 @@
         </a>
       </li>
       <li>
-        <a href="/maoyan/video/" :class="[a, categoryNum == 2 ? b : '']">
+        <a href="/maoyan/video.html" :class="[a, categoryNum == 2 ? b : '']">
           <img
             v-if="categoryNum == 2"
             src="@/assets/img/selected-video.png"
@@ -42,7 +42,7 @@
         </a>
       </li>
       <li>
-        <a href="/maoyan/shortvideo/" :class="[a, categoryNum == 3 ? b : '']">
+        <a href="/maoyan/shortvideo.html" :class="[a, categoryNum == 3 ? b : '']">
           <img
             v-if="categoryNum == 3"
             src="@/assets/img/selected-shortvideo.png"
@@ -53,7 +53,7 @@
         </a>
       </li>
       <li>
-        <a href="/performance/" :class="[a, categoryNum == 4 ? b : '']">
+        <a href="/maoyan/performance.html" :class="[a, categoryNum == 4 ? b : '']">
           <svg
             width="50"
             height="50"
@@ -82,7 +82,7 @@
         </a>
       </li>
       <li>
-        <a href="/maoyan/mine/" :class="[a, categoryNum == 5 ? b : '']">
+        <a href="/maoyan/mine.html" :class="[a, categoryNum == 5 ? b : '']">
           <svg
             width="50"
             height="50"
