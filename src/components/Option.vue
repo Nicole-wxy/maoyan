@@ -2,9 +2,9 @@
   <div class="optionArea">
     <div class="optionContainer">
       <div class="option" @touchstart.stop="optionPanelOpen">
-        <router-link class="optionTab" to="/theater/city">全城</router-link>
-        <router-link class="optionTab" to="/theater/brand">品牌</router-link>
-        <router-link class="optionTab" to="/theater/feature">特色</router-link>
+        <router-link class="optionTab" to="/maoyan/theater/city">全城</router-link>
+        <router-link class="optionTab" to="/maoyan/theater/brand">品牌</router-link>
+        <router-link class="optionTab" to="/maoyan/theater/feature">特色</router-link>
       </div>
     </div>
     <!-- 路由出口 -->
@@ -37,7 +37,7 @@ export default {
     function closeBlacker(){
         isHidden.value = true;
         router.push({
-            path : '/theater'
+            path : '/maoyan/theater'
         })
     }
     return {
