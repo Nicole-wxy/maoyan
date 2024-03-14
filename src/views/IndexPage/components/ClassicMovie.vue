@@ -54,19 +54,19 @@ export default {
 
     // 获取热门电影数据
     function getMovieList() {
-      axios.get("/data/movieList.json").then(({ data }) => {
+      axios.get("/maoyan/data/movieList.json").then(({ data }) => {
         hotMovieScreenData.hotMovieData = data;
       });
     }
     // 获取热门影人数据
     function getActorList() {
-      axios.get("/data/actorList.json").then(({ data }) => {
+      axios.get("/maoyan/data/actorList.json").then(({ data }) => {
         hotMovieScreenData.actorListData = data;
       });
     }
     // 获取娱乐新闻数据
     function getEntertainmentNews() {
-      axios.get("/data/entertainmentNews.json").then(({ data }) => {
+      axios.get("/maoyan/data/entertainmentNews.json").then(({ data }) => {
         hotMovieScreenData.entertainmentNews = data;
       });
     }

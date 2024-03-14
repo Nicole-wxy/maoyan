@@ -70,7 +70,7 @@ export default {
     });
 
     function getTheaterList() {
-      axios.get("/data/theaterList.json").then(({ data }) => {
+      axios.get("/maoyan/data/theaterList.json").then(({ data }) => {
         theaterScreenData.labelList = data.theaterList.labelData[0];
         // 针对特殊厅的数据，我们需要进行一个分组，每组的数量为 4 个
         let theaterCount = theaterScreenData.labelList.specialTheater;

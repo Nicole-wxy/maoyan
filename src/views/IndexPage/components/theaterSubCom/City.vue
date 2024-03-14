@@ -77,7 +77,7 @@ export default {
     });
 
     function getTheaterList() {
-      axios.get("/data/theaterList.json").then(({ data }) => {
+      axios.get("/maoyan/data/theaterList.json").then(({ data }) => {
         theaterScreenData.areaList = data.theaterList.areaData;
         theaterScreenData.streetList = data.theaterList.streetData;
       });
