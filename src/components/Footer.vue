@@ -31,7 +31,7 @@
         </a>
       </li>
       <li>
-        <a href="/video/" :class="[a, categoryNum == 2 ? b : '']">
+        <a href="/maoyan/video/" :class="[a, categoryNum == 2 ? b : '']">
           <img
             v-if="categoryNum == 2"
             src="@/assets/img/selected-video.png"
@@ -42,7 +42,7 @@
         </a>
       </li>
       <li>
-        <a href="/shortvideo/" :class="[a, categoryNum == 3 ? b : '']">
+        <a href="/maoyan/shortvideo/" :class="[a, categoryNum == 3 ? b : '']">
           <img
             v-if="categoryNum == 3"
             src="@/assets/img/selected-shortvideo.png"
@@ -82,7 +82,7 @@
         </a>
       </li>
       <li>
-        <a href="/mine/" :class="[a, categoryNum == 5 ? b : '']">
+        <a href="/maoyan/mine/" :class="[a, categoryNum == 5 ? b : '']">
           <svg
             width="50"
             height="50"

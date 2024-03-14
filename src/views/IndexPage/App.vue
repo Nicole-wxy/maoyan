@@ -25,19 +25,19 @@ export default {
       nav: [
         {
           name: "热映",
-          path: "/",
+          path: "/maoyan",
         },
         {
           name: "影院",
-          path: "/theater",
+          path: "/maoyan/theater",
         },
         {
           name: "待映",
-          path: "/willComing",
+          path: "/maoyan/willComing",
         },
         {
           name: "经典电影",
-          path: "/classicMovie",
+          path: "/maoyan/classicMovie",
         },
       ],
     };
