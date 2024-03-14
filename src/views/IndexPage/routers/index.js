@@ -11,11 +11,11 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/',
+            path: '/maoyan/',
             component: HotMovie,
         },
         {
-            path: '/theater',
+            path: '/maoyan/theater',
             component: Theater,
             children: [
                 {
@@ -33,11 +33,11 @@ const router = createRouter({
             ]
         },
         {
-            path: '/willComing',
+            path: '/maoyan/willComing',
             component: WillComing,
         },
         {
-            path: '/classicMovie',
+            path: '/maoyan/classicMovie',
             component: ClassicMovie,
         }
     ]

@@ -27,23 +27,23 @@ export default {
       nav: [
         {
           name: "推荐",
-          path: "/video",
+          path: "/maoyan/video",
         },
         {
           name: "预告片",
-          path: "/video/trailer",
+          path: "/maoyan/video/trailer",
         },
         {
           name: "热片解读",
-          path: "/video/interpretation",
+          path: "/maoyan/video/interpretation",
         },
         {
           name: "说电影",
-          path: "/video/commentary",
+          path: "/maoyan/video/commentary",
         },
         {
           name: "娱乐",
-          path: "/video/entertainment",
+          path: "/maoyan/video/entertainment",
         },
       ],
     };

@@ -8,23 +8,23 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/video',
+            path: '/maoyan/video',
             component: Recommend,
         },
         {
-            path: '/video/trailer',
+            path: '/maoyan/video/trailer',
             component: Trailer,
         },
         {
-            path: '/video/interpretation',
+            path: '/maoyan/video/interpretation',
             component: Interpretation,
         },
         {
-            path: '/video/commentary',
+            path: '/maoyan/video/commentary',
             component: Commentary,
         },
         {
-            path: '/video/entertainment',
+            path: '/maoyan/video/entertainment',
             component: Entertainment,
         }
     ]
