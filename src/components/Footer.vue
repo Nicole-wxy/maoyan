@@ -2,7 +2,7 @@
   <footer>
     <ul class="between" @touchstart.stop>
       <li>
-        <a href="/maoyan/index.html" :class="[a, categoryNum == 1 ? b : '']">
+        <a href="/maoyan/" :class="[a, categoryNum == 1 ? b : '']">
           <svg
             width="50"
             height="50"
